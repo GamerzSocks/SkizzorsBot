@@ -1,3 +1,3 @@
 # SkizzorsBot
 A simple python bot to play paper, scissors, rock with you.
-This currently is only available to run through the terminal or cmd with python installed.
+The .exe is for the actual use of the bot, but there is a python to make your own ajustments.
