@@ -1,5 +1,7 @@
 import random
 from time import sleep
+import subprocess
+thx = "Thanks for playing! SkissorsBot 1.1"
 print("Paper,")
 sleep(1)
 print("Scissors,")
@@ -31,4 +33,10 @@ if __name__ == "__main__":
     print(bot.get_move())
     bot.train("rock", "win")
     bot.modify("scissors")
+    
+sleep(5)
+print(thx)
+print('To play again, please restart the program.')
+sleep(999999)
+print('Development Handler, this is not important.')
     
